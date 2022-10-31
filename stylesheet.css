@@ -1,0 +1,193 @@
+html{
+    background-color: #EE7803;
+}
+
+.title{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    font-family: 'hind',sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    animation: 4s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+    
+
+
+
+.guide{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+    
+
+
+.social{
+    text-align: center;
+    font-size: 44px;  
+    text-decoration: none; 
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+} 
+    
+
+
+
+
+a:visited{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+
+
+a:hover{
+     /*  Try to figure out hot to position the icons to center, text align-center does not work*/
+    
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+
+
+
+nav{
+
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    text-decoration: none;
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.links{
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
