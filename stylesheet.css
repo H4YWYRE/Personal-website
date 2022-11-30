@@ -122,6 +122,7 @@ footer{
     font-size: 44px;  
     text-decoration: none; 
     animation: 10s anim-lineUp;
+    color:white;
 }
 @keyframes anim-lineUp {
   0% {
