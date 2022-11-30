@@ -1,0 +1,215 @@
+html{
+    background-color: #222222;
+}
+
+.title{
+    text-align: left;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+/* This is for the menu bar appearance */
+li{
+  float:right;
+  display:inline;
+  font-size: 25px;
+  font-family: 'Hind', sans-serif;
+}
+
+li a {
+  display:block;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'hind',sans-serif;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    animation: 4s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+    
+
+
+  /* This section is to control the appearance of the "guide" class for more information about me.  */
+.guide{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    animation: 10s anim-lineUp;
+    color: white;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+    
+
+
+.social{
+    text-align: center;
+    font-size: 44px;  
+    text-decoration: none; 
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+} 
+    
+
+
+
+
+a:visited{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+a:hover{
+     /*  Try to figure out hot to position the icons to center, text align-center does not work*/
+    
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+
+nav{
+
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Outfit', sans-serif;
+    color: white;
+    text-decoration: none;
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.links{
+    animation: 10s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
