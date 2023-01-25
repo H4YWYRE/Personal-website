@@ -54,8 +54,8 @@ font-size: 25px;
 
 .playing-cards{
   text-align: center;
-  height: 560px;
-  width: 315px;
+  height: 315px;
+  width: 560px;
   position: absolute;
   top: 110%; right: 0%;
   bottom: 50%; left: 30%;
@@ -64,8 +64,8 @@ font-size: 25px;
 
 .closr{
  text-align: center;
-  height: 560px;
-  width: 315px;
+  height: 315px;
+  width: 560px;
   position: absolute;
   top: 170%; right: 0%;
   bottom: 40%; left: 30%;
