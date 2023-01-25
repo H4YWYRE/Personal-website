@@ -1,0 +1,96 @@
+/* Projects page fonts, sizing and colors*/
+
+html{
+  background-color: #222222;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+h1{
+  text-align: center;
+  font-family: 'Lacquer', cursive;
+  font-size: 50px;
+  color: white;
+ 
+ 
+ 
+ }
+ 
+ p{
+   text-align: center;
+ font-family: 'Red Hat Mono', monospace;
+ color:white;
+ font-size: 25px;
+ 
+ }
+
+/* Menu Bar*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: right;
+  display: inline;
+  font-size: 25px;
+  font-family: 'Hind', sans-serif;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav{
+  text-align: center;
+  font-size: 75px;
+  color: black;
+  
+}
+
+a{
+  text-decoration: none;
+  color: yellow;
+}
+a:hover{
+  color:red;
+}
+
+
+
+/*CSS class for github icon link to my Github page*/
+.github{
+  text-align: center;
+}
+
+/*CSS class for Embedded Youtube videos*/
+.playing-cards{
+  text-align: center;
+  height: 560px;
+  width: 315px;
+  position: absolute;
+  top: 60%; right: 0%;
+  bottom: 50%; left: 30%;
+  
+}
+
+/*CSS class for Embedded Youtube videos*/
+.closr{
+ text-align: center;
+  height: 560px;
+  width: 315px;
+  position: absolute;
+  top: 110%; right: 0%;
+  bottom: 50%; left: 30%;
+  
+}
+/*CSS class for Embedded Youtube videos*/
+
+.proj{
+text-align:center;
+font-size:15px;
+}

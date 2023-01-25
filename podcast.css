@@ -1,0 +1,128 @@
+/* Page's background color, fonts, and font size */
+
+html{
+    background-color: #222222;
+    font-family: 'Hind', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+/* Menu Bar for all other pages on the website*/
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+li{
+  float:right;
+  display:inline;
+  font-size: 25px;
+}
+
+li a {
+  display:block;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+/* Menu Bar for all other pages on the website*/
+
+
+P{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+nav{
+    font-size: 55px;
+    text-align: center;
+    color: #ff1616;
+}
+/* Podcast class for "Have a listen" text*/
+.podlink{
+    font-size: 22px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 50px;
+    background-image: 
+    linear-gradient(90deg, #ff1616, #ffde59);
+    background-clip: text;
+    color: transparent;
+    animation: color-change 12s infinite;
+  }
+
+  @keyframes color-change {
+    0% { color: #ff1616; }
+    50% { color: #ffde59; }
+    100% { color: #ff1616; }
+  }
+  
+/* CSS animations and sizing for all links.*/
+
+a{
+    text-align: center;
+    color: #ffde59;
+}
+
+a:hover{
+  color:#ff1616
+}
+
+/*Spotify Class for embedded episode*/
+.spotify{
+    text-align: center;
+}
+
+/* Home class for main page and animations*/
+.home{
+    font-size: 30px;
+}
+
+div{
+    animation: 2s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/*Twitter class for embeeded APEX account and animation*/
+.twit{
+    animation: 2s anim-lineUp;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
